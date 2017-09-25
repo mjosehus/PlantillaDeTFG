@@ -1,2 +1,2 @@
-# PlantillaDeTFG
-Plantilla par los trabajos Fin de Grado
+# Plantilla de TFG
+Plantilla para los trabajos Fin de Grado.
