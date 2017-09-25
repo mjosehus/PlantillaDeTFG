@@ -1,4 +1,4 @@
 #+TITLE: Plantilla de TFG
 
-Una plantilla para los trabajos Fin de Grado.
+Plantilla para los trabajos Fin de Grado.
 
