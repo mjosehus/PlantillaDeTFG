@@ -13,34 +13,16 @@ ya tiene predefinidas, con el objetivo de que el lector aprenda
 
 A continuación se muestra la definición \texttt{(cuadrado x)} es el cuadrado de \texttt{x}. 
 Por ejemplo,
-\begin{sesion}
-ghci> cuadrado 3
-9
-ghci> cuadrado 4
-16
-\end{sesion}
-
 La definición es
 \index{\texttt{cuadrado}}
 \begin{code}
+-- |
+-- >>> cuadrado 3
+-- 9
+-- >>> cuadrado 4
+-- 16
 cuadrado :: Int -> Int
 cuadrado x = x * x
 \end{code}
 
-Definimos otra función en Haskell. \texttt{(raizCuadrada x)} es la raiz
-cuadrada entera de \texttt{x}. Por ejemplo, 
-\begin{sesion}
-ghci> raizCuadrada 9
-3
-ghci> raizCuadrada 8
-2
-\end{sesion}
-
-La definición es
-
-\index{\texttt{raizCuadrada}}
-\begin{code}
-raizCuadrada :: Int -> Int
-raizCuadrada x = last [y | y <- [1..x], y*y <= x]
-\end{code}
 
